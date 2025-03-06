@@ -61,7 +61,7 @@ The calculator comes with three positioning options:
 
 ## Author
 
-[Your Name]
+Mayank Raj
 
 ---
 
