@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="calculator">
+            <span class="title">Calculator</span>
+        </div>
+        <div class="grid-container">
+            <input type="button" onclick="appendNum(id)" value="1" class="button" id="box-1">
+            <input type="button" onclick="appendNum(id)" value="2" class="button" id="box-2">
+            <input type="button" onclick="appendNum(id)" value="3" class="button" id="box-3">
+            <input type="button" onclick="appendNum(id)" value="4" class="button" id="box-4">
+            <input type="button" onclick="appendNum(id)" value="5" class="button" id="box-5">
+            <input type="button" onclick="appendNum(id)" value="6" class="button" id="box-6">
+            <input type="button" onclick="appendNum(id)" value="7" class="button" id="box-7">
+            <input type="button" onclick="appendNum(id)" value="8" class="button" id="box-8">
+            <input type="button" onclick="appendNum(id)" value="9" class="button" id="box-9">
+            <input type="button" onclick="appendNum(id)" value="0" class="button" id="box-0">
+            <input type="button" onclick="appendNum(id)" value="+" class="button" id="box-10">
+            <input type="button" onclick="appendNum(id)" value="-" class="button" id="box-11">
+            <button onclick="appendNum(id)" value="*" class="button" id="box-12">x</button>
+            <input type="button" onclick="appendNum(id)" value="/" class="button" id="box-13">
+            <input type="button" onclick="calculate()" value="=" class="button" id="box-14">
+            <input type="button" onclick="clearDisplay()" value="CLEAR DISPLAY" class="button" id="box-15">
+            <div class="display" id="box-16"></div>
+        </div>
+    </div>
+
+    <div class="button1">
+        <input type="button" onclick="centerCalculator()" value="Click Me to center calculator" class="b1">
+        <input type="button" onclick="uncenterCalculator()" value="Revert Back" class="b1">
+        <input type="button" onclick="choosePos()" value="Change Position by px" class="b1">
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
