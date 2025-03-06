@@ -2,7 +2,7 @@
 
 A simple, interactive calculator built with HTML, CSS, and JavaScript.
 
-<video src="[./Demo.mp4](https://drive.google.com/file/d/1AViwLUXFRAF5oaqGbj40ydeCiSVz_hbo/view?usp=sharing)" width="320" height="240" autoplay loop></video>
+<video src="Demo.mp4" width="320" height="240" autoplay loop></video>
 
 ## Features
 
