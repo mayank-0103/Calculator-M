@@ -10,10 +10,10 @@
 
 <body>
     <div class="container">
-        <div id="calculator">
+        <span id="calculator">
             <span class="title">Calculator</span>
-        </div>
-        <div class="grid-container">
+        </span>
+        <span class="grid-container">
             <input type="button" onclick="appendNum(id)" value="1" class="button" id="box-1">
             <input type="button" onclick="appendNum(id)" value="2" class="button" id="box-2">
             <input type="button" onclick="appendNum(id)" value="3" class="button" id="box-3">
@@ -31,13 +31,13 @@
             <input type="button" onclick="calculate()" value="=" class="button" id="box-14">
             <input type="button" onclick="clearDisplay()" value="CLEAR DISPLAY" class="button" id="box-15">
             <div class="display" id="box-16"></div>
-        </div>
+        </span>
     </div>
 
     <div class="button1">
-        <input type="button" onclick="centerCalculator()" value="Click Me to center calculator" class="b1">
-        <input type="button" onclick="uncenterCalculator()" value="Revert Back" class="b1">
-        <input type="button" onclick="choosePos()" value="Change Position by px" class="b1">
+        <input type="button" onclick="centerCalculator()" value="Click Me to center calculator" class="b1" data-ignore-move>
+        <input type="button" onclick="uncenterCalculator()" value="Revert Back to original position" class="b1" data-ignore-move>
+        <input type="button" onclick="choosePos()" value="Change Position by px" class="b1" data-ignore-move>
     </div>
     <script src="script.js" defer></script>
 </body>

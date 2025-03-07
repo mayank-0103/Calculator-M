@@ -13,8 +13,12 @@ html, body {
     box-sizing: border-box;
 }
 
-.button:hover {
-    background-color:rgb(153, 255, 153);
+.container {
+    position: absolute;
+    width: fit-content;
+    transition: all 1s;
+    left: 5px;
+    top: 0px;
 }
 
 .display {
