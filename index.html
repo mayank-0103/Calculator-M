@@ -14,23 +14,33 @@
             <span class="title">Calculator</span>
         </span>
         <span class="grid-container">
-            <input type="button" onclick="appendNum(id)" value="1" class="button" id="box-1">
-            <input type="button" onclick="appendNum(id)" value="2" class="button" id="box-2">
-            <input type="button" onclick="appendNum(id)" value="3" class="button" id="box-3">
-            <input type="button" onclick="appendNum(id)" value="4" class="button" id="box-4">
-            <input type="button" onclick="appendNum(id)" value="5" class="button" id="box-5">
-            <input type="button" onclick="appendNum(id)" value="6" class="button" id="box-6">
-            <input type="button" onclick="appendNum(id)" value="7" class="button" id="box-7">
-            <input type="button" onclick="appendNum(id)" value="8" class="button" id="box-8">
-            <input type="button" onclick="appendNum(id)" value="9" class="button" id="box-9">
-            <input type="button" onclick="appendNum(id)" value="0" class="button" id="box-0">
-            <input type="button" onclick="appendNum(id)" value="+" class="button" id="box-10">
-            <input type="button" onclick="appendNum(id)" value="-" class="button" id="box-11">
-            <button onclick="appendNum(id)" value="*" class="button" id="box-12">x</button>
-            <input type="button" onclick="appendNum(id)" value="/" class="button" id="box-13">
+            <input type="button" value="1" class="button" id="box-1" data-real-value="1">
+            <input type="button" value="2" class="button" id="box-2" data-real-value="2">
+            <input type="button" value="3" class="button" id="box-3" data-real-value="3">
+            <input type="button" value="4" class="button" id="box-4" data-real-value="4">
+            <input type="button" value="5" class="button" id="box-5" data-real-value="5">
+            <input type="button" value="6" class="button" id="box-6" data-real-value="6">
+            <input type="button" value="7" class="button" id="box-7" data-real-value="7">
+            <input type="button" value="8" class="button" id="box-8" data-real-value="8">
+            <input type="button" value="9" class="button" id="box-9" data-real-value="9">
+            <input type="button" value="0" class="button" id="box-0" data-real-value="0">
+            <input type="button" value="+" class="button" id="box-10" data-real-value="+">
+            <input type="button" value="-" class="button" id="box-11" data-real-value="-">
+            <input type="button" value="x" class="button" id="box-12" data-real-value="*">
+            <input type="button" value="/" class="button" id="box-13" data-real-value="/">
             <input type="button" onclick="calculate()" value="=" class="button" id="box-14">
             <input type="button" onclick="clearDisplay()" value="CLEAR DISPLAY" class="button" id="box-15">
-            <div class="display" id="box-16"></div>
+            <input type="text" class="display" id="box-16" readonly>
+            <input type="button" value="√" class="button" id="box-17" data-real-value="sqrt">
+            <input type="button" value="sin" class="button" id="box-18" data-real-value="sin">
+            <input type="button" value="cos" class="button" id="box-19" data-real-value="cos">
+            <input type="button" value="tan" class="button" id="box-20" data-real-value="tan">
+            <input type="button" value="(" class="button" id="box-21" data-real-value="(">
+            <input type="button" value=")" class="button" id="box-22" data-real-value=")">
+            <input type="button" value="e^x" class="button" id="box-23" data-real-value="exp">
+            <input type="button" value="log" class="button" id="box-24" data-real-value="log">
+            <input type="button" value="ln" class="button" id="box-25" data-real-value="ln">
+            <input type="button" value="x^y" class="button" id="box-26" data-real-value="^">
         </span>
     </div>
 

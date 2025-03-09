@@ -49,7 +49,7 @@ html, body {
 .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color:lemonchiffon;
     padding: 10px;
@@ -77,28 +77,63 @@ html, body {
 }
 
 #box-10 {
-    grid-column: -1/-2;
+    grid-column: 4/5;
     grid-row: 2/3;
 }
 #box-11 {
-    grid-column: -1/-2;
+    grid-column: 4/5;
     grid-row: 3/4;
 }
 #box-12 {
-    grid-column: -1/-2;
+    grid-column: 4/5;
     grid-row: 4/5;
 }
 #box-13 {
-    grid-column: -1/-2;
+    grid-column: 4/5;
     grid-row: 5/6;
 }
 
 #box-15 {
     grid-row: -1/-2;
-    grid-column: 1/-1;
+    grid-column: 1/4;
 }
 
 #box-16 {
     grid-column: 1/-1;
     grid-row: 1/2;
+}
+
+#box-17, #box-18, #box-19, #box-20 {
+    grid-column: -2/-3;
+}
+
+#box-21 {
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
+
+#box-22 {
+    grid-row: 6/7;
+    grid-column: 5/6;
+}
+
+
+#box-23, #box-24, #box-25, #box-26 {
+    grid-column: -1/-2;
+}
+
+#box-23 {
+    grid-row: 2/3;
+}
+
+#box-24 {
+    grid-row: 3/4;
+}
+
+#box-25 {
+    grid-row: 4/5;
+}
+
+#box-26 {
+    grid-row: 5/6;
 }
