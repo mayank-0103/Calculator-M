@@ -1,19 +1,12 @@
-# JavaScript Calculator  
+# JavaScript Calculator (v1.3)
 
 A simple, interactive calculator built with HTML, CSS, and JavaScript.   
 
-## 🚀 New Features & Modifications  
-- **Improved Position Control:**  
-  - Clicking outside the calculator now moves it dynamically.  
-  - New constraints prevent it from going off-screen.  
-- **Enhanced Display Logic:**  
-  - Rounded results to 3 decimal places.  
-  - "Empty Field" warning for empty calculations.  
-- **Better Button Feedback:**  
-  - Visual effects on button press (`mousedown`, `mouseup`).  
+## 🚀 New Features & Modifications
+- **Added some mathematical, trigonometric functions:**
+  - Added square root, log10, ln(natural logarithm), power, sin, cos, tan.
 - **Bug Fixes:**  
-  - Prevented invalid expressions from breaking the UI.  
-  - Ensured consistent placement of the calculator on different screen sizes.  
+  - Ensured that calculator doesn't moves when mousedown over calculator and mouseup outside the calculator
 
 ## Features  
 - Basic arithmetic operations (addition, subtraction, multiplication, division)  
@@ -23,7 +16,7 @@ A simple, interactive calculator built with HTML, CSS, and JavaScript.
   - Center the calculator on the screen  
   - Revert to original position  
   - Set custom positions with pixel values  
-  - **NEW:** Move by clicking anywhere outside the calculator  
+  - **NEW:** Addition of some useful features
 
 ## Project Structure  
 - `index.html` - The calculator's HTML structure  
@@ -38,7 +31,6 @@ The calculator now comes with **four** positioning options:
 1. **Center Calculator**: Places the calculator in the center of the screen  
 2. **Revert Back**: Returns the calculator to its original position  
 3. **Change Position by px**: Allows the user to input custom x and y coordinates  
-4. **NEW:** Click anywhere outside the calculator to move it dynamically  
 
 ## Installation  
 1. Clone this repository  
@@ -47,7 +39,6 @@ The calculator now comes with **four** positioning options:
 ## Future Improvements  
 - Add memory functions (M+, M-, MR)  
 - Implement keyboard support  
-- Add scientific calculator functions  
 - Improve mobile responsiveness  
 - Add themes/color options  
 
