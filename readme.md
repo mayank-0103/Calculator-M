@@ -1,4 +1,4 @@
-# JavaScript Calculator (v1.3)
+# JavaScript Calculator (v1.2)
 
 A simple, interactive calculator built with HTML, CSS, and JavaScript.   
 
