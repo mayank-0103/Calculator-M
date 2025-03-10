@@ -64,7 +64,7 @@ function move_with_mouse(event) {
             move(elem, event.clientY, event.clientX);
         }
     }
-    }
+}
 
 function appendNum(button) {
     let display = document.querySelector(".display");
